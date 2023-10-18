@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext", "ES2015"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "baseUrl": "./",
+        "downlevelIteration": true,
+        "paths": {
+            /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+            "@components/*": ["src/components/*"],
+            "@components": ["src/components"],
+            "@public/*": ["public/*"],
+            "@public": ["public"],
+            "@i18n": ["./next-i18next.config"],
+            "@src/*": ["src/*"],
+            "@src": ["src"],
+            "@redux/*": ["src/redux/*"],
+            "@redux": ["src/redux"],
+            "@constants/*": ["src/constants/*"],
+            "@constants": ["src/constants"],
+            "@infra/*": ["src/infra/*"],
+            "@infra": ["src/infra"],
+            "@domain/*": ["src/domain/*"],
+            "@domain": ["src/domain"],
+            "@/pages/*": ["pages/*"],
+            "@test/*": ["__test__/*"]
+        }
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js",
+        "assets/index.d.ts"
+    ],
+    "exclude": ["node_modules"]
+}

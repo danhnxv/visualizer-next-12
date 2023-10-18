@@ -1,0 +1,36 @@
+{
+    "name": "visualizer",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.16",
+        "d3": "5.5.0",
+        "next": "12.3.1",
+        "react": "18.2.0",
+        "react-d3-graph": "^2.6.0",
+        "react-dom": "18.2.0",
+        "tailwindcss": "^3.1.8"
+    },
+    "devDependencies": {
+        "@types/node": "18.7.18",
+        "@types/qs": "^6.9.7",
+        "@types/react": "18.0.20",
+        "@types/react-d3-graph": "^2.6.4",
+        "@types/react-dom": "18.0.6",
+        "eslint": "8.23.1",
+        "eslint-config-next": "^12.3.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.31.8",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "postcss": "^8.4.16",
+        "prettier": "^2.8.4",
+        "typescript": "4.8.3"
+    }
+}
